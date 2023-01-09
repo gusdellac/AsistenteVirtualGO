@@ -1,12 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AsistenteVirtualGO</title>
+    <title>Home - AsistenteVirtualGO | Cursos para encontrar un trabajo remoto</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/scroll-bar/scroll-bar.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/banner/banner.css">
+    <link rel="stylesheet" href="./css/services/services.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/cursos/cursos.css">
+    <link rel="stylesheet" href="./css/carrousel-cursos/carrousel-cursos.css">
+
+   
+    
+
+    
+    
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img" src="./assets/img/LogoAsistenteVirtualGO.png" alt="logo asistente virtual GO">
+        </div>
+        <div class="header__nav">
+            <ul class="header__nav-lista">
+                <li class="header__nav-lista-item">Servicios</li>
+                <li class="header__nav-lista-item">Cursos</li>
+                <li class="header__nav-lista-item">Sobre mí</li>
+                <li class="header__nav-lista-item">Contacto</li>
+                <li class="header__nav-lista-item">Mis redes</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__bg">
+                <h2 class="banner__bg-title-first" >
+                    BIENVENIDO AL MUNDO ONLINE
+                </h2>
+                <h3 class="banner__bg-title-second">
+                    Donde juntos encontraremos tu primer trabajo remoto
+                </h3>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services__bg">
+                <img class="services__bg-img" src="./assets/img/img-services.png" alt="conjunto imagenes remote working">
+                <div class="services__bg-text-box">
+                    <h3 class="services__bg-text-item" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Te ayudo de forma online a conseguir ese trabajo que tanto deseas</h3>
+                    <h3 class="services__bg-text-item" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Asesoramiento personalizado respetando tus tiempos para aprender</h3>
+                    <h3 class="services__bg-text-item" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">Juntos descubriremos tus habilidades y las potenciaremos</h3>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cursos">
+            <div class="cursos__title-box">
+                <h2 class="cursos__title">
+                    Cursos
+                </h2>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/cursos/Curso-Asesoria.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/cursos/Curso-Guia-para-encontrar-trabajo-remoto.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/cursos/Curso-Creacion-de-contenido.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+    <script src="./js/swiper.js"></script>
 </body>
 </html>
