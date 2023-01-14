@@ -15,10 +15,10 @@
     margin: 0 10px 0 10px;
 }
 
-.header__logo-img{
-    /* width: 280px;
-    height: auto; */
-}
+/* .header__logo-img{
+    width: 280px;
+    height: auto;
+} */
 
 .header__nav-lista{
     display: flex;

@@ -1,14 +1,13 @@
 .services{
     width: 100%;
-    height: 1595px;
+    height: 1436px;
     background: white;
 }
 
 .services__bg{
-    background: url(../../assets/img/Bg-services.png);
+    background: url(../../assets/img/Bg-services.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -29,9 +28,20 @@
 
 .services__bg-text-item{
    margin: 50px;
-   font-size: 2rem;
-   font-weight: 300;
+   font-size: 1.8rem;
+   font-weight: bold;
    width: 400px;
-   color: #616161;
+   color: #757575;
    text-align: center;
 }
+
+.services__bg-text-box img{
+    width: 60px;
+}
+
+.services__bg-text-box-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

@@ -16,12 +16,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/cursos/cursos.css">
     <link rel="stylesheet" href="./css/carrousel-cursos/carrousel-cursos.css">
-
-   
-    
-
-    
-    
+    <link rel="stylesheet" href="./css/about-me/about-me.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
 </head>
 <body>
     <header class="header">
@@ -49,40 +45,60 @@
                 </h3>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="services__bg">
                 <img class="services__bg-img" src="./assets/img/img-services.png" alt="conjunto imagenes remote working">
                 <div class="services__bg-text-box">
-                    <h3 class="services__bg-text-item" data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">Te ayudo de forma online a conseguir ese trabajo que tanto deseas</h3>
-                    <h3 class="services__bg-text-item" data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">Asesoramiento personalizado respetando tus tiempos para aprender</h3>
-                    <h3 class="services__bg-text-item" data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">Juntos descubriremos tus habilidades y las potenciaremos</h3>
+                    <div class="services__bg-text-box-item">
+                        <img src="./assets/icons/services/computerIcon.png" alt="" data-aos="flip-left">
+                        <h3 class="services__bg-text-item" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">Te ayudo de forma online a conseguir ese trabajo que tanto deseas</h3>
+                    </div>
+                    <div class="services__bg-text-box-item">
+                        <img src="./assets/icons/services/womanComputer.png" alt=""data-aos="flip-left">
+                        <h3 class="services__bg-text-item" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">Asesoramiento personalizado respetando tus tiempos para aprender</h3>
+                    </div>
+                    <div class="services__bg-text-box-item">
+                        <img src="./assets/icons/services/coheteIcon.png" alt="" data-aos="flip-left">
+                        <h3 class="services__bg-text-item" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">Juntos descubriremos tus habilidades y las potenciaremos</h3>
+                    </div>
+                    
+                    
                 </div>
             </div>
 
         </section>
 
-        <section class="cursos">
+        <section class="cursos" id="cursos">
             <div class="cursos__title-box">
-                <h2 class="cursos__title">
+                <h2 class="cursos__title" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     Cursos
                 </h2>
             </div>
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="./assets/img/cursos/Curso-Asesoria.png" alt="">
+                        <div class="swiper-slida__img-first">
+                            <h4 class="swiper-slida__img-first-title">
+                                Asesoría
+                            </h4>
+                        </div>
+                        <!-- <img src="./assets/img/cursos/Curso-Asesoria.png" alt="Curso Asesoría"> -->
                     </div>
                     <div class="swiper-slide">
-                        <img src="./assets/img/cursos/Curso-Guia-para-encontrar-trabajo-remoto.png" alt="">
+                        <img src="./assets/img/cursos/Curso-Guia-para-encontrar-trabajo-remoto.png" alt=" Curso trabajo remoto">
                     </div>
                     <div class="swiper-slide">
-                        <img src="./assets/img/cursos/Curso-Creacion-de-contenido.png" alt="">
+                        <img src="./assets/img/cursos/Curso-Creacion-de-contenido.png" alt="Curso creación de contenido">
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -91,9 +107,85 @@
             </div>
         </section>
 
-    </main>
-    <footer>
+        <section class="about-me">
+            <h2 class="about-me__title" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                Sobre mí
+            </h2>
+            <div class="about-me__content" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="about-me__content-img"></div>
+                <p class="about-me__content-description">
+                    Mi nombre es Mariana, soy Community manager, creadora de contenido 
+                    y en proceso de especialista en Marketing Digital. Con mis cursos te ayudo a encontrar la libertad en tu trabajo.
+                    Brindándote mis experiencias, conocimientos y tips que me han hecho pasar de un trabajo tedioso a la 
+                    libertad remota en muy poco tiempo.
+                </p>
+            </div>
+        </section>
 
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <img class="footer__content__img" src="./assets/img/Asistente Virtual GO.svg" alt="LogoAsistenteVirtualGO2">
+            <div class="footer__content__categorias">
+                <ul class="footer__content__categorias-list">
+                    <li class="footer__content__categorias-list-title">Categorías</li>
+                    <li class="footer__content__categorias-list-item"><a href="./index.html">Inicio</a></li>
+                    <li class="footer__content__categorias-list-item"><a href="#services">Servicios</a></li>
+                    <li class="footer__content__categorias-list-item"><a href="#cursos">Cursos</a></li>
+                    <li class="footer__content__categorias-list-item"><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__content__socialMedia">
+                <ul class="footer__content__socialMedia-list">
+                    <li class="footer__content__socialMedia-list-title">Mis redes</li>
+                    <li class="footer__content__socialMedia-list-items">
+                        <a href="#"><svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_55_171)">
+                            <path d="M32.0001 13.4152C32.0001 6.0052 24.8361 -0.00146484 16.0001 -0.00146484C7.16009 0.000201823 -0.00390625 6.0052 -0.00390625 13.4169C-0.00390625 20.1119 5.84809 25.6619 13.4961 26.6685V17.2935H9.43609V13.4169H13.5001V10.4585C13.5001 7.09687 15.8901 5.2402 19.5441 5.2402C21.2961 5.2402 23.1261 5.50187 23.1261 5.50187V8.80187H21.1081C19.1221 8.80187 18.5021 9.83687 18.5021 10.8985V13.4152H22.9381L22.2301 17.2919H18.5001V26.6669C26.1481 25.6602 32.0001 20.1102 32.0001 13.4152Z" fill="#757575"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_55_171">
+                            <rect width="32" height="26.6667" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg></a>
+                        <a href="#"><svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.42375 24.3763C20.745 24.3763 26.9381 14.9957 26.9381 6.87505C26.9381 6.61255 26.9381 6.3463 26.9269 6.0838C28.1326 5.21096 29.1732 4.13033 30 2.89255C28.8737 3.38914 27.6802 3.71644 26.4581 3.8638C27.7454 3.09437 28.7095 1.88374 29.1712 0.456925C27.9619 1.17341 26.6382 1.67637 25.2581 1.9438C24.3303 0.955719 23.1026 0.301145 21.7652 0.0814699C20.4277 -0.138205 19.0551 0.0892774 17.86 0.728682C16.6649 1.36809 15.714 2.38373 15.1546 3.61829C14.5952 4.85285 14.4585 6.23742 14.7656 7.55755C12.3183 7.43483 9.92403 6.79905 7.7382 5.69144C5.55238 4.58383 3.62378 3.02913 2.0775 1.12817C1.29251 2.48396 1.05295 4.08768 1.40746 5.61367C1.76197 7.13967 2.68398 8.47354 3.98625 9.34442C3.01039 9.31127 2.05598 9.04922 1.2 8.57942V8.6638C1.20168 10.0841 1.6937 11.4602 2.59289 12.5596C3.49208 13.659 4.74328 14.4142 6.135 14.6975C5.60674 14.8431 5.06106 14.9156 4.51313 14.9132C4.12685 14.9143 3.74134 14.8786 3.36188 14.8063C3.75523 16.0289 4.52114 17.0979 5.55234 17.8634C6.58354 18.629 7.82838 19.0529 9.1125 19.0757C6.93104 20.789 4.23638 21.7183 1.4625 21.7138C0.973727 21.7159 0.485293 21.6877 0 21.6294C2.81534 23.4243 6.08493 24.3773 9.42375 24.3763Z" fill="#757575"/>
+                            </svg></a>
+                        <a href="#"><svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.0966 0H15.2635C16.8048 0.00562535 24.6147 0.0618792 26.7204 0.628165C27.357 0.800991 27.9371 1.13786 28.4027 1.60512C28.8683 2.07237 29.2031 2.65364 29.3737 3.29083C29.5631 4.00338 29.6962 4.94656 29.7862 5.91975L29.805 6.11476L29.8462 6.60229L29.8612 6.7973C29.9831 8.51116 29.9981 10.1163 30 10.4669V10.6075C29.9981 10.9713 29.9813 12.6852 29.8462 14.4703L29.8312 14.6672L29.8144 14.8622C29.7206 15.9347 29.5819 16.9998 29.3737 17.7836C29.2037 18.4211 28.869 19.0026 28.4033 19.4699C27.9376 19.9373 27.3573 20.274 26.7204 20.4463C24.5453 21.0313 16.2779 21.0726 15.1322 21.0744H14.8659C14.2865 21.0744 11.8901 21.0632 9.37746 20.9769L9.05869 20.9657L8.89556 20.9582L8.57491 20.9451L8.25427 20.9319C6.17289 20.8401 4.19089 20.6919 3.27771 20.4444C2.64108 20.2723 2.06088 19.9358 1.59521 19.4689C1.12954 19.0019 0.794763 18.4207 0.624414 17.7836C0.416276 17.0017 0.277517 15.9347 0.183762 14.8622L0.168761 14.6653L0.15376 14.4703C0.0612181 13.1997 0.00993787 11.9264 0 10.6525L0 10.4219C0.00375023 10.0188 0.0187512 8.62554 0.120008 7.08794L0.133133 6.89481L0.138759 6.7973L0.15376 6.60229L0.195012 6.11476L0.213763 5.91975C0.303769 4.94656 0.436902 4.0015 0.626289 3.29083C0.79635 2.65338 1.131 2.07184 1.59669 1.6045C2.06237 1.13717 2.64273 0.800473 3.27958 0.628165C4.19276 0.384399 6.17476 0.23439 8.25614 0.140634L8.57491 0.127508L8.89743 0.116258L9.05869 0.110632L9.37934 0.0975064C11.1639 0.0400801 12.9492 0.00819963 14.7347 0.0018752H15.0966V0ZM12.0008 6.01913V15.0534L19.7956 10.5382L12.0008 6.01913Z" fill="#757575"/>
+                            </svg>
+                            </a>
+                        <a href="#"><svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.444 11.1697C18.8312 11.1697 18.3329 10.6926 18.3329 10.1059C18.3329 9.51916 18.8312 9.04203 19.444 9.04203C20.0568 9.04203 20.5551 9.51916 20.5551 10.1059C20.5551 10.6926 20.0568 11.1697 19.444 11.1697ZM14.9996 18.6165C12.549 18.6165 10.5551 16.7075 10.5551 14.3612C10.5551 12.0149 12.549 10.1059 14.9996 10.1059C17.4501 10.1059 19.444 12.0149 19.444 14.3612C19.444 16.7075 17.4501 18.6165 14.9996 18.6165ZM18.8885 7.44629H11.1107C9.27234 7.44629 7.77734 8.87767 7.77734 10.6378V18.0846C7.77734 19.8447 9.27234 21.2761 11.1107 21.2761H18.8885C20.7268 21.2761 22.2218 19.8447 22.2218 18.0846V10.6378C22.2218 8.87767 20.7268 7.44629 18.8885 7.44629Z" fill="#757575"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0003 11.1699C13.162 11.1699 11.667 12.6013 11.667 14.3614C11.667 16.1215 13.162 17.5529 15.0003 17.5529C16.8387 17.5529 18.3337 16.1215 18.3337 14.3614C18.3337 12.6013 16.8387 11.1699 15.0003 11.1699Z" fill="#757575"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3333 18.0851C23.3333 20.4314 21.3394 22.3404 18.8889 22.3404H11.1111C8.66056 22.3404 6.66667 20.4314 6.66667 18.0851V10.6383C6.66667 8.29202 8.66056 6.38298 11.1111 6.38298H18.8889C21.3394 6.38298 23.3333 8.29202 23.3333 10.6383V18.0851ZM15 0C6.72889 0 0 6.44255 0 14.3617C0 22.2809 6.72889 28.7234 15 28.7234C23.2711 28.7234 30 22.2809 30 14.3617C30 6.44255 23.2711 0 15 0Z" fill="#757575"/>
+                            </svg></a>
+                        <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_55_179)">
+                            <path d="M23.8548 23.8607H19.7085V17.3635C19.7085 15.8142 19.677 13.8203 17.5478 13.8203C15.386 13.8203 15.0558 15.5062 15.0558 17.2492V23.8607H10.9095V10.5H14.8925V12.3212H14.9462C15.5027 11.2712 16.856 10.1628 18.8778 10.1628C23.079 10.1628 23.856 12.9278 23.856 16.527V23.8607H23.8548ZM6.2265 8.67183C5.91019 8.67199 5.59696 8.60976 5.30472 8.48871C5.01249 8.36767 4.747 8.19018 4.52344 7.96641C4.29989 7.74263 4.12266 7.47697 4.00189 7.18462C3.88113 6.89227 3.81921 6.57898 3.81967 6.26267C3.8199 5.78641 3.96135 5.32092 4.22614 4.92505C4.49092 4.52918 4.86715 4.22073 5.30724 4.03869C5.74733 3.85664 6.23153 3.80919 6.69859 3.90233C7.16565 3.99547 7.5946 4.22502 7.9312 4.56195C8.26781 4.89887 8.49694 5.32805 8.58962 5.7952C8.68231 6.26235 8.63439 6.7465 8.45192 7.18641C8.26945 7.62633 7.96063 8.00226 7.56451 8.26666C7.16839 8.53106 6.70276 8.67206 6.2265 8.67183ZM8.3055 23.8607H4.1475V10.5H8.3055V23.8607ZM25.9292 0H2.06617C0.924 0 0 0.903 0 2.01717V25.9828C0 27.0982 0.924 28 2.06617 28H25.9257C27.0667 28 28 27.0982 28 25.9828V2.01717C28 0.903 27.0667 0 25.9257 0H25.9292Z" fill="#757575"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_55_179">
+                            <rect width="28" height="28" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg></a>
+                        <a href="#"><svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0H18.7125C18.9825 1.25125 19.725 2.82975 21.0281 4.396C22.3031 5.93075 23.9944 7 26.25 7V10.5C22.9631 10.5 20.4938 9.0755 18.75 7.29925V19.25C18.75 20.9806 18.2002 22.6723 17.17 24.1112C16.1399 25.5502 14.6757 26.6717 12.9627 27.3339C11.2496 27.9962 9.3646 28.1695 7.54603 27.8319C5.72746 27.4942 4.057 26.6609 2.74588 25.4372C1.43476 24.2135 0.541879 22.6544 0.180142 20.957C-0.181594 19.2597 0.00406204 17.5004 0.713634 15.9015C1.42321 14.3027 2.62482 12.9361 4.16653 11.9746C5.70824 11.0132 7.5208 10.5 9.375 10.5V14C8.26248 14 7.17495 14.3079 6.24992 14.8848C5.32489 15.4617 4.60392 16.2816 4.17818 17.2409C3.75244 18.2002 3.64104 19.2558 3.85809 20.2742C4.07513 21.2926 4.61086 22.2281 5.39753 22.9623C6.1842 23.6965 7.18648 24.1965 8.27762 24.3991C9.36876 24.6017 10.4998 24.4977 11.5276 24.1004C12.5554 23.703 13.4339 23.0301 14.052 22.1667C14.6701 21.3034 15 20.2883 15 19.25V0Z" fill="#757575"/>
+                            </svg></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <h5 class="footer__copyright-text">Mariana Druetta - Copyright © 2022</h5>
+        </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
