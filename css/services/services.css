@@ -5,31 +5,33 @@
 }
 
 .services__bg{
-    background: url(../../assets/img/Bg-services.svg);
+    background: url(../../assets/img/Bg-services2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .services__bg-img{
     display: flex;
     width: 650px;
+    margin-left: 5%;
 }
 
 .services__bg-text-box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 10%;
 }
 
 .services__bg-text-item{
    margin: 50px;
-   font-size: 1.8rem;
-   font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: 300;
    width: 400px;
    color: #757575;
    text-align: center;

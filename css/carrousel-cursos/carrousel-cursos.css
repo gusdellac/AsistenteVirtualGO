@@ -47,7 +47,7 @@
     background: #E57373;
 }
 
-.swiper-slida__img-first{
+.swiper-slide__img-first{
     background: url(../../assets/img/cursos/curso1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,18 +60,45 @@
     align-items: flex-end;
 }
 
-.swiper-slida__img-first:hover{
-    border: solid 1px #E57373;
-    transform: scale(1.05);
+.swiper-slide__img-second{
+    background: url(../../assets/img/cursos/curso2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    width: 400px;
+    height: 440.55px;
     transition: 0.3s;
+    display: flex;
+    align-items: flex-end;
 }
 
-.swiper-slida__img-first-title{
-    background: #2121213b;
-    color: #E57373;
+.swiper-slide__img-third{
+    background: url(../../assets/img/cursos/curso3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    width: 400px;
+    height: 440.55px;
+    transition: 0.3s;
+    display: flex;
+    align-items: flex-end;
+}
+
+.swiper-slide__img-first:hover, .swiper-slide__img-second:hover, .swiper-slide__img-third:hover{
+    /* border: solid 1px #E57373; */
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.swiper-slide__img-title{
+    background: #21212116;
+    color: #FF5252;
     width: 100%;
     height: 80px;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-weight: 300;
     display: flex;
     align-items: center;

@@ -2,13 +2,15 @@
     width: 100%;
     height: 100vh;
     background: url(../../assets/img/Bg-aboutme.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .about-me__title{
     margin-left: 50px;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: #E57373;
 }
@@ -29,7 +31,7 @@
 }
 
 .about-me__content-description{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     width: 50%;
     color: #616161;

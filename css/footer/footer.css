@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background: #EEEEEE;
-    border-top: solid 2px #EF9A9A;
+    border-top: solid 1px #EF9A9A;
 }
 
 .footer__content{
@@ -26,13 +26,13 @@
 }
 
 .footer__content__categorias-list-title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #757575;
 }
 
 .footer__content__categorias-list-item{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #757575;
 }
@@ -51,7 +51,7 @@
 }
 
 .footer__content__socialMedia-list-title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #757575;
     text-align: center;
@@ -85,7 +85,7 @@
 
 .footer__copyright-text{
     padding: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #757575;
     margin: 10px;
