@@ -20,11 +20,6 @@
     margin: 0 10px 0 10px;
 }
 
-/* .header__logo-img{
-    width: 280px;
-    height: auto;
-} */
-
 .header__nav-lista{
     display: flex;
     align-items: center;
@@ -34,13 +29,13 @@
 
 .header__nav-lista-item{
     margin: 0 10px 0 10px;
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 500;
     /* text-transform: uppercase; */
-    color: #212121;
+    color: var(--gris-intermedio);
     cursor: pointer;
 }
 
 .header__nav-lista-item:hover{
-    color: #9E9E9E;
+    color: var(--salmon-intermedio);
 }

@@ -15,5 +15,5 @@
 .cursos__title{
     font-size: 2.5rem;
     font-weight: 300;
-    color: #E57373;
+    color: var(--salmon-intermedio);
 }

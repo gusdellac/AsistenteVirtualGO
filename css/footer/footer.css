@@ -1,8 +1,8 @@
 .footer{
     width: 100%;
     height: auto;
-    background: #EEEEEE;
-    border-top: solid 1px #EF9A9A;
+    background: var(--gris-muy-claro);
+    border-top: solid 1px var(--salmon-intermedio);
 }
 
 .footer__content{
@@ -28,21 +28,21 @@
 .footer__content__categorias-list-title{
     font-size: 1.2rem;
     font-weight: bold;
-    color: #757575;
+    color: var(--gris-intermedio);
 }
 
 .footer__content__categorias-list-item{
     font-size: 1rem;
     font-weight: 300;
-    color: #757575;
+    color: var(--gris-intermedio);
 }
 
 .footer__content__categorias-list-item a{
     text-decoration: none;
-    color: #757575;
+    color: var(--gris-intermedio);
 }
 .footer__content__categorias-list-item a:hover{
-    color: #e57373;
+    color: var(--salmon-intermedio);
 }
 
 .footer__content__socialMedia-list{
@@ -53,7 +53,7 @@
 .footer__content__socialMedia-list-title{
     font-size: 1.2rem;
     font-weight: bold;
-    color: #757575;
+    color: var(--gris-intermedio);
     text-align: center;
 }
 
@@ -80,13 +80,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #212121;
+    background: var(--gris-muy-oscuro);
 }
 
 .footer__copyright-text{
     padding: 5px;
     font-size: 0.8rem;
     font-weight: 600;
-    color: #757575;
+    color: var(--gris-intermedio);
     margin: 10px;
 }

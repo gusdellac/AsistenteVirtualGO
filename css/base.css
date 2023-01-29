@@ -1,5 +1,4 @@
 *{
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Comfortaa', cursive;
     margin: 0;
     padding: 0;
@@ -20,9 +19,14 @@ main{
 
 :root{
     --negro: #000000;
+    --gris-muy-oscuro: #212121;
     --gris-oscuro: #616161;
     --gris-intermedio: #757575;
     --gris-claro: #BDBDBD;
+    --gris-muy-claro: #EEEEEE;
     --blanco: #FFFFFF;
+
+    --salmon-fuerte: #FF5252;
+    --salmon-intermedio: #E57373;
 
 }
