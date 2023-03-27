@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 0,
-  slidesPerGroup: 1,
+  slidesPerGroup: 2,
   loop: true,
   loopFillGroupWithBlank: true,
   pagination: {
@@ -12,4 +12,16 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  
+  // slidesPerView: 1,
+  // spaceBetween: 30,
+  // loop: true,
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
 });

@@ -1,6 +1,6 @@
 .swiper {
     width: 70%;
-    height: 750px;
+    height: 700px;
 }
 
 .swiper-slide {
@@ -53,8 +53,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50px;
-    width: 400px;
-    height: 440.55px;
+    width: 420px;
+    height: 410.55px;
     transition: 0.3s;
     display: flex;
     align-items: flex-end;
@@ -66,8 +66,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50px;
-    width: 400px;
-    height: 440.55px;
+    width: 420px;
+    height: 410.55px;
     transition: 0.3s;
     display: flex;
     align-items: flex-end;
@@ -79,8 +79,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50px;
-    width: 400px;
-    height: 440.55px;
+    width: 420px;
+    height: 410.55px;
     transition: 0.3s;
     display: flex;
     align-items: flex-end;

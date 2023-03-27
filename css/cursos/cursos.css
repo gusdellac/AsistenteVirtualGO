@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     justify-content: space-around;
+    padding: 50px;
 }
 
 .cursos__title-box{
@@ -16,4 +17,8 @@
     font-size: 2.5rem;
     font-weight: 300;
     color: var(--salmon-intermedio);
+}
+
+.cursos a{
+    text-decoration: none;
 }

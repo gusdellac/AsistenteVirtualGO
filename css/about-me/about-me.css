@@ -1,9 +1,14 @@
 .about-me{
     width: 100%;
-    height: 100vh;
-    background: url(../../assets/img/Bg-aboutme.svg);
+    height: auto;
+    /* background: url(../../assets/img/Bg-aboutme.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: #FAFAFA;
+}
+
+.about-me-contents{
+    padding: 100px 50px 100px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -16,6 +21,7 @@
 }
 
 .about-me__content{
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +39,30 @@
 .about-me__content-description{
     font-size: 1.5rem;
     font-weight: 300;
+    line-height: 2rem;
     width: 50%;
     color: var(--gris-oscuro);
-
 }
+
+/*curve divider*/
+.custom-shape-divider-top-1679408723 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1679408723 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-top-1679408723 .shape-fill {
+    fill: #FFFFFF;
+}
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "asistentevirtualgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusdellac/AsistenteVirtualGO.git"
+  },
+  "keywords": [],
+  "author": "Gus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusdellac/AsistenteVirtualGO/issues"
+  },
+  "homepage": "https://github.com/gusdellac/AsistenteVirtualGO#readme"
+}

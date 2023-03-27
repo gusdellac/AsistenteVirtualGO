@@ -29,13 +29,17 @@
 
 .header__nav-lista-item{
     margin: 0 10px 0 10px;
-    font-size: 1rem;
-    font-weight: 500;
-    /* text-transform: uppercase; */
-    color: var(--gris-intermedio);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
-.header__nav-lista-item:hover{
+.header__nav-lista-item a{
+    text-decoration: none;
+    color: var(--gris-intermedio);
+}
+
+.header__nav-lista-item a:hover{
     color: var(--salmon-intermedio);
 }

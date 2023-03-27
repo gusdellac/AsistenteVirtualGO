@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/banner/banner.css">
     <link rel="stylesheet" href="./css/services/services.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="./css/cursos/cursos.css">
     <link rel="stylesheet" href="./css/carrousel-cursos/carrousel-cursos.css">
     <link rel="stylesheet" href="./css/about-me/about-me.css">
@@ -27,26 +29,40 @@
         </div>
         <div class="header__nav">
             <ul class="header__nav-lista">
-                <li class="header__nav-lista-item">Servicios</li>
-                <li class="header__nav-lista-item">Cursos</li>
-                <li class="header__nav-lista-item">Sobre mí</li>
-                <li class="header__nav-lista-item">Contacto</li>
-                <li class="header__nav-lista-item">Mis redes</li>
+                <li class="header__nav-lista-item"><a href="#services">Servicios</a></li>
+                <li class="header__nav-lista-item"><a href="#cursos">Cursos</a></li>
+                <li class="header__nav-lista-item"><a href="#about-me">Sobre mí</a></li>
+                <li class="header__nav-lista-item"><a href="#">Contacto</a></li>
+                <li class="header__nav-lista-item"><a href="#social-media">Mis redes</a></li>
+                <li class="header__nav-lista-item"><a href="#social-media">Iniciar sesión</a></li>
             </ul>
         </div>
     </header>
     <main>
         <section class="banner">
             <div class="banner__bg">
-                <h2 class="banner__bg-title-first" >
-                    BIENVENIDO AL MUNDO ONLINE
-                </h2>
-                <h3 class="banner__bg-title-second">
-                    Donde juntos encontraremos tu primer trabajo remoto
-                </h3>
+                <div class="banner__bg-titles">
+                    <h2 class="banner__bg-title-first" >
+                        BIENVENIDO AL MUNDO ONLINE
+                    </h2>
+                    <h3 class="banner__bg-title-second">
+                        Donde juntos encontraremos tu primer trabajo remoto
+                    </h3>
+                </div>
+                
             </div>
         </section>
+
+        
+
         <section class="services" id="services">
+            <!--divider-->
+            <div class="custom-shape-divider-bottom-1679361385">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
             <div class="services__bg">
                 <img class="services__bg-img" src="./assets/img/img-services.png" alt="conjunto imagenes remote working">
                 <div class="services__bg-text-box">
@@ -67,13 +83,20 @@
                         <h3 class="services__bg-text-item" data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine">Juntos descubriremos tus habilidades y las potenciaremos</h3>
-                    </div>
-                    
-                    
+                    </div>  
                 </div>
             </div>
 
+            <!--divider-->
+            <div class="custom-shape-divider-top-1679360293">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+
         </section>
+
+        
 
         <section class="cursos" id="cursos">
             <div class="cursos__title-box">
@@ -83,17 +106,43 @@
                     Cursos
                 </h2>
             </div>
-            <div class="swiper mySwiper" data-aos="fade-left"
+            <div class="swiper mySwiper" data-aos="fade-right"
             data-aos-offset="400"
             data-aos-easing="ease-in-sine">
                 <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="./views/courses.html?id=1">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img-first">
+                                <h4 class="swiper-slide__img-title">
+                                    Asesoría
+                                </h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="swiper-slide" href="./views/courses.html?id=2">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img-second">
+                                <h4 class="swiper-slide__img-title">
+                                    Guía para encontrar tu trabajo remoto
+                                </h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="swiper-slide" href="./views/courses.html?id=3">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__img-third">
+                                <h4 class="swiper-slide__img-title">
+                                    Creación de contenido
+                                </h4>
+                            </div>
+                        </div>
+                    </a>
                     <div class="swiper-slide">
                         <div class="swiper-slide__img-first">
                             <h4 class="swiper-slide__img-title">
                                 Asesoría
                             </h4>
                         </div>
-                        <!-- <img src="./assets/img/cursos/Curso-Asesoria.png" alt="Curso Asesoría"> -->
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-slide__img-second">
@@ -101,7 +150,6 @@
                                 Guía para encontrar tu trabajo remoto
                             </h4>
                         </div>
-                        <!-- <img src="./assets/img/cursos/Curso-Guia-para-encontrar-trabajo-remoto.png" alt=" Curso trabajo remoto"> -->
                     </div>
                     <div class="swiper-slide">
                         <div class="swiper-slide__img-third">
@@ -109,7 +157,6 @@
                                 Creación de contenido
                             </h4>
                         </div>
-                        <!-- <img src="./assets/img/cursos/Curso-Creacion-de-contenido.png" alt="Curso creación de contenido"> -->
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -118,23 +165,30 @@
             </div>
         </section>
 
-        <section class="about-me">
-            <h2 class="about-me__title" data-aos="fade-right"
-            data-aos-offset="400"
-            data-aos-easing="ease-in-sine">
-                Sobre mí
-            </h2>
-            <div class="about-me__content" data-aos="fade-left"
-            data-aos-offset="400"
-            data-aos-easing="ease-in-sine">
-                <div class="about-me__content-img"></div>
-                <p class="about-me__content-description">
-                    Mi nombre es Mariana, soy Community manager, creadora de contenido 
-                    y en proceso de especialista en Marketing Digital. Con mis cursos te ayudo a encontrar la libertad en tu trabajo.
-                    Brindándote mis experiencias, conocimientos y tips que me han hecho pasar de un trabajo tedioso a la 
-                    libertad remota en muy poco tiempo.
-                </p>
+        <section class="about-me" id="about-me">
+            <!--divider-->
+            <div class="custom-shape-divider-top-1679408723">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
             </div>
+            
+            <div class="about-me-contents">
+                <h2 class="about-me__title" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
+                    Sobre mí
+                </h2>
+                <div class="about-me__content" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">
+                    <div class="about-me__content-img"></div>
+                    <p class="about-me__content-description">
+                        Mi nombre es Mariana, soy Community manager,
+                        creadora de contenido y en proceso de especialista en Marketing Digital.
+                        Con mis cursos te ayudo a encontrar la libertad en tu trabajo.
+                        Brindándote mis experiencias, conocimientos y tips que me han hecho
+                        pasar de un trabajo tedioso a la libertad remota en muy poco tiempo.
+                    </p>
+                </div>
+            </div>
+            
         </section>
 
     </main>
@@ -150,7 +204,7 @@
                     <li class="footer__content__categorias-list-item"><a href="#">Contacto</a></li>
                 </ul>
             </div>
-            <div class="footer__content__socialMedia">
+            <div class="footer__content__socialMedia" id="social-media">
                 <ul class="footer__content__socialMedia-list">
                     <li class="footer__content__socialMedia-list-title">Mis redes</li>
                     <li class="footer__content__socialMedia-list-items">
@@ -200,10 +254,11 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
-     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
      <!-- Initialize Swiper -->
-    <script src="./js/swiper.js"></script>
+    <script src="./src/js/swiper.js"></script>
 </body>
 </html>
